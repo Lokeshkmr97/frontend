@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutus from '../../assest/images/aboutus.jpg'
+// import aboutus from '../../assest/images/aboutus.jpg'
 
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
         {/* Div for Image */}
         <div className="w-full sm:w-1/2 p-4">
           <img
-            src={aboutus}
+            src='https://st.depositphotos.com/1038076/4908/i/450/depositphotos_49080337-stock-photo-about-us.jpg'
             alt="About Us"
             className="w-full h-auto rounded-lg object-contain"
           />
